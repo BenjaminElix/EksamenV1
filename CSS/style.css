@@ -13,19 +13,26 @@ header {
 
 .navbar {
     text-align: right;
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     margin-top: 50px;
     text-decoration: none;
+    color: black;
 }
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     list-style-type: none;
 }
 
 nav img {
 
-    
+
 }
 
 
@@ -42,14 +49,19 @@ header li {
 
 #black-btn {
     background-color: #e6bd43;
-    color: white;
-    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    font-weight: 800;
+    text-decoration: none;
+
 }
 
-#black-btn a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+#black-btn:hover {
+    background-color: black;
+    color: #e6bd43;
 }
+
+
     
 
 /*-----HeaderEND---------*/
