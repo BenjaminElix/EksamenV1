@@ -1,7 +1,28 @@
 @font-face {
     font-family: Roboto;
-    src:url(CSS/font/font-family/Roboto/Roboto-Regular.ttf)
+    src:url(CSS/font/font-family/Roboto/Roboto-Regular.ttf) format('truetype');
+    
 }
+
+/*Viste hvordan jeg la inn font https://www.youtube.com/watch?v=AAU25Fo4bFY&t=200s*/    
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header, main, footer {
+    padding: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+}
+
 
 /*-----Header----------*/
 body {
@@ -13,6 +34,7 @@ header {
     font-size: 1.2rem;
     font-weight: 400;
     grid-area: header;
+    margin-bottom: 40px;
 
 }
 
@@ -44,11 +66,12 @@ header {
 
 .mobile-navbar {
     display: block;
-    text-align: center;
+    
 }
 
 .logo-holder {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .mobile-navbar img {
@@ -128,25 +151,56 @@ header li {
     color: #e6bd43;
 }
 
-
-
-
-
-    
+.black-btn-holder {
+    margin-top: 20px;
+}
 
 /*-----HeaderEND---------*/
 
-#grid-container {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
+
+
+
+
+
+/*-----Footer-------*/
+.footer-innhold {
+    background-color: #252525;
 }
 
-header, main, footer {
-    padding: 1rem;
+.footer-innhold img {
+    margin-top: 40px;
+    width: 90px;
+    height: auto;
+}
+
+.footer-innhold p {
+    text-align: center;
+    color: #fff;
+}
+
+.social-icon {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.social-icon li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 
 
-@media only screen and (min-width: 800px) {
+
+/*-----FooterEND------*/
+
+
+
+@media only screen and (min-width: 600px) {
 
     .mobile-navbar {
         display: none;
@@ -156,7 +210,7 @@ header, main, footer {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
     .desktop-navbar {
         display: none;
