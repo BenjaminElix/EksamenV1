@@ -38,6 +38,11 @@ header {
 
 }
 
+.desktop-navbar img {
+    width: 120px;
+    height: auto;
+}
+
 .navbar {
     text-align: right;
     list-style: none;
