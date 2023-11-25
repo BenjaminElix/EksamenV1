@@ -9,12 +9,13 @@
     <link href="css/font/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Forside</title>
+    <link rel="icon" href="img/logo1.png" type="ikon-bilde">
 </head>
 <body>
     <div id="grid-container">
         <header>
             <nav class="desktop-navbar">
-                <a href="index.html" class="logo-desktop-meny"><img src="img/logo1.png" alt="logo-bilde"></a>
+                <a href="index.html" class="logo-desktop-meny" aria-label="lenke-til-Index"><img src="img/logo1.png" alt="logo-bilde"></a>
                 <ul class="navbar">
                     <li><a href="index.html" class="navbar-side-bold" aria-label="lenke-til-Index">Home</a></li>
                     <li><a href="products.html" aria-label="lenke-til-produkts">Portfolio</a></li>
@@ -28,9 +29,9 @@
                 </section>
                 
                 <ul class="navbar-mobile">
-                    <li><a href="index.html" class="navbar-side-bold">Home</a></li>
-                    <li><a href="products.html">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>                   
+                    <li><a href="index.html" class="navbar-side-bold" aria-label="lenke-til-Index">Home</a></li>
+                    <li><a href="products.html" aria-label="lenke-til-produkts">Portfolio</a></li>
+                    <li><a href="about.html" aria-label="lenke-til-about">About</a></li>                   
                 </ul>
                 <section class="black-btn-holder">
                     <li><a href="#" id="black-btn-mobile">Contact</a></li>
@@ -51,8 +52,71 @@
                             </section>
                         </section>
                 </section>
-
-
+            </section>
+            <section class="subheading">
+                <ul>
+                    <h2>Enganging subheading. What can <br>you help your visitors with</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. Making it over 2000 years old. Discovered the undoubtable source. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </ul>
+            </section>
+            <section class="ourCompany">
+                <img src="https://placehold.co/400x400" alt="our-company">
+                <section class="ourCompany-text">
+                    <ul>
+                        <li>
+                            <h3>About Our Company</h3>
+                        </li>
+                        <li>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        </li>
+                        <li>
+                            <section class="ourCompany-button">
+                                <a href="#" id="yellow-btn-outline" aria-label="Read-more-about-us">Read more about us</a>
+                            </section>  
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="indexServices">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>
+                        <article>
+                            <i class="fa-solid fa-users fa-2xl" style="color: #000000;"></i>
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <i class="fa-solid fa-cloud-arrow-up fa-2xl" style="color: #000000;"></i>
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <i class="fa-solid fa-code fa-2xl" style="color: #000000;"></i>
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <i class="fa-solid fa-wifi fa-2xl" style="color: #000000;"></i>
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="newsletter">
+                <h2>Sign up for our newsletter</h2>
+                <section class="mail-sign">
+                    <label for="mail-bruker">Nora@epost.no:</label>
+                    <input type="text" id="mail-bruker" name="mail-bruker" placeholder="Nora@epost.no" aria-label="Email-skriveboks">
+                    <a href="about.html" id="black-btn" aria-label="Sign-me-up">Sign me up!</a>
+                </section>
             </section>
         </main>
         <footer>
@@ -68,9 +132,19 @@
                             <li><a href="https://www.instagram.com/" aria-label="lenke-til-instagram"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
                             <li><a href="https://no.linkedin.com/" aria-label="lenke-til-linkedin"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a></li>
                         </ul>
-
                     </section>    
                 </ul>
+            </nav>
+            <nav class="footer-innhold-desktop-nav">
+                <section class="footer-innhold-desktop">
+                    <a href="index.html" aria-label="lenke-til-Index"><img src="img/logo1.png" alt="logo-footer"></a>
+                    <p>Companyrights Companyname 2023</p>
+                    <ul class="footer-social">
+                        <li><a href="https://www.facebook.com/" aria-label="lenke-til-facebook"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a></li>
+                        <li><a href="https://www.instagram.com/" aria-label="lenke-til-instagram"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+                        <li><a href="https://no.linkedin.com/" aria-label="lenke-til-linkedin"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </section>
             </nav>
         </footer>
     </div>

@@ -8,7 +8,7 @@
 
 
 * {
-    margin: 0;
+    
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -79,7 +79,7 @@ header {
 .logo-holder {
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .logo-desktop-meny {
@@ -175,12 +175,28 @@ header li {
 
 
 
+#yellow-btn-outline {
+    background-color: #e6bd43;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#yellow-btn-outline:hover {
+    background-color: black;
+    outline-style: solid;
+    outline-color: black;
+    color: #e6bd43;
+}
+
 .video-holder {
     position: relative;
     width: 100%;
     height: 600px;
     overflow: hidden;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     
 }
 
@@ -215,10 +231,127 @@ header li {
     margin-bottom: 25px;
 }
 
+.subheading {
+    display: block;
+    padding-top: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.subheading h2 {
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+.subheading p {
+    font-size: 24px;
+    max-width: 70%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.ourCompany {
+    background-color: #e6bd43;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.ourCompany img {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.ourCompany-text li {
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.ourCompany-button {
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.ourCompany h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.ourCompany p {
+    font-size: 25px;
+    max-width: 70%;
+}
+
+
+.indexServices {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 70px;
+}
 
 
 
+.indexServices h2 {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.indexServices h3 {
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+
+.indexServices li{
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.indexServices li p {
+    padding-top: 0px;
+    max-width: 350px;
+    font-size: 25px;
+}
+
+
+.newsletter {
+    text-align: center;
+    background-color: #e6e6e6;
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+
+.newsletter h2 {
+    font-size: 60px;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0px;
+}
+
+.mail-sign {
+    padding-top: 0px;
+}
+
+.mail-sign a {
+    font-size: 20px;
+}
+
+.newsletter input {
+    padding: 21px;
+    border: 0px;
+    padding-right: 60px;
+    font-size: 20px;
+}
 
 
 
@@ -234,6 +367,7 @@ header li {
 
 
 /*-----Footer-------*/
+
 .footer-innhold {
     background-color: #252525;
 }
@@ -267,6 +401,50 @@ header li {
 
 
 
+
+
+.footer-innhold-desktop {
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-innhold-desktop a {
+    margin-right: 10px;
+}
+
+.footer-innhold-desktop img {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.footer-innhold-desktop p {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.footer-social {
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fab, .fa-brands {
+    padding: 15px;
+}
+
+.footer-innhold li {
+    margin-right: 20px;
+    
+}
+
+
+
+
 /*-----FooterEND------*/
 
 
@@ -274,6 +452,10 @@ header li {
 @media only screen and (min-width: 600px) {
 
     .mobile-navbar {
+        display: none;
+    }
+
+    .footer-innhold {
         display: none;
     }
 
@@ -290,5 +472,24 @@ header li {
     .desktop-video-holder {
         display: none;
     }
+
+
+    /*---------INDEX MAIN----------*/
+
+    .desktop-video-holder {
+        display: none;
+    }
+
+
+    .ourCompany {
+        display: none;
+    }
+
+    .footer-innhold-desktop {
+        display: none;
+    }
+
+    /*---------INDEX MAIN SLUTT--------*/
+
 
 }
