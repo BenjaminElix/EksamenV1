@@ -21,6 +21,8 @@ header, main, footer {
 #grid-container {
     display: grid;
     grid-template-areas: "header" "main" "footer";
+    max-width: 1600px;
+    margin: auto;
 }
 
 
@@ -173,7 +175,45 @@ header li {
 /*-------Main INDEX------*/
 
 
+/*---Mobile INDEX------*/
+    .mobile-banner-holder {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        margin-bottom: 100px;
+        
+    }
 
+
+    .mobile-banner-holder img {
+        width: 100%;
+        height: 600px;
+        display: block;
+        object-fit: cover; 
+    }
+
+    .overlay-text-mobil {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .overlay-text-mobil p {
+        font-size: 20px;
+        width: 65%;
+    }
+
+/*------Mobile INDEX SLUTT------*/
 
 #yellow-btn-outline {
     background-color: #e6bd43;
@@ -218,7 +258,7 @@ header li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.616);
     font-size: 30px;
     text-align: center;
 }
@@ -241,10 +281,16 @@ header li {
 .subheading h2 {
     font-size: 55px;
     margin-bottom: 40px;
+    width: 55%;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
 }
 .subheading p {
     font-size: 24px;
-    max-width: 70%;
+    max-width: 68%;
     text-align: center;
     justify-content: center;
     margin: auto;
@@ -263,8 +309,8 @@ header li {
     margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     float: left;
 }
 
@@ -358,10 +404,39 @@ header li {
 /*-------Main INDEX SLUTT------*/
 
 
+/*------ABOUT---------*/
+
+.desktop-banner-about img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    object-fit: cover;
+    
+}
 
 
 
+/*------ABOUT SLUTT-------*/
 
+
+/*-----Back To Top Button-----*/
+.back-to-top {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 20px;
+    height: 35px;
+    
+}
+/*-----Back To Top Button STOP----*/
 
 
 
@@ -443,6 +518,11 @@ header li {
 }
 
 
+.footer-innhold ul {
+    margin: 0;
+}
+
+
 
 
 /*-----FooterEND------*/
@@ -450,6 +530,8 @@ header li {
 
 
 @media only screen and (min-width: 600px) {
+/*Syntess bare på mobil*/
+
 
     .mobile-navbar {
         display: none;
@@ -459,11 +541,23 @@ header li {
         display: none;
     }
 
+    .mobile-banner-holder {
+        display: none;
+    }
+
+
+
+    
+
 
 }
 
 
 @media only screen and (max-width: 600px) {
+    /*Syntess bare på desktop*/
+
+
+    /*-----INDEX HEADER-------*/
 
     .desktop-navbar {
         display: none;
@@ -472,6 +566,25 @@ header li {
     .desktop-video-holder {
         display: none;
     }
+    /*------INDEX HEADER SLUTT*/
+
+    /*-----Back To Top Button-----*/
+    .back-to-top {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #252525;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        width: 20px;
+        height: 35px;
+        
+    }
+/*-----Back To Top Button STOP----*/
+
 
 
     /*---------INDEX MAIN----------*/
@@ -482,14 +595,174 @@ header li {
 
 
     .ourCompany {
-        display: none;
+        display: ;
     }
 
     .footer-innhold-desktop {
         display: none;
     }
 
+
+
+
+    .subheading h2 {
+        font-size: 25px;
+        font-weight: 800;
+        width: 80%;
+        justify-content: center;
+        justify-self: center
+        
+    }
+
+    .subheading p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .ourCompany {
+        background-color: #e6bd43;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+
+    .ourCompany img{
+        margin-bottom: 40px;
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+    }
+
+    .ourCompany li {
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .ourCompany h3 {
+        font-size: 25px;
+        width: 70%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .ourCompany-text ul {
+        text-align: center;
+    }
+
+    .ourCompany p {
+        text-align: left;
+        margin: auto;
+    }
+
+    .indexServices {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    
+    .indexServices h2 {
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .indexServices h3 {
+        font-size: 25px;
+        font-weight: 800;
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+    
+    .indexServices li{
+        display: inline-block;
+        text-align: center;
+        margin: 1rem;
+    }
+    
+    .indexServices li p {
+        padding-top: 0px;
+        max-width: 350px;
+        font-size: 20px;
+    }
+
+
+    .newsletter {
+        text-align: center;
+        background-color: #e6e6e6;
+        padding-bottom: 70px;
+        padding-top: 50px;
+    }
+    
+    .newsletter h2 {
+        font-size: 25px;
+    }
+    
+    .newsletter label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0px;
+    }
+    
+    .mail-sign {
+        padding-top: 0px;
+    }
+    
+    .mail-sign a {
+        font-size: 20px;
+    }
+    
+    .newsletter input {
+        padding: 15px;
+        border: 0px;
+        padding-right: 0px;
+        font-size: 15px;
+    }
+
+    #black-btn {
+        background-color: #e6bd43;
+        color: rgb(0, 0, 0);
+        padding: 14px 20px;
+        font-weight: 800;
+        text-decoration: none;
+        font-size: 15px;
+    
+    }
+    
+    #black-btn:hover {
+        background-color: black;
+        color: #e6bd43;
+    }
+    
+
     /*---------INDEX MAIN SLUTT--------*/
+
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+       /*-----Back To Top Button (Bare til button)-----*/
+       .back-to-top {
+        position: fixed;
+        bottom: 1.5rem;
+        right: calc((100% - 1600px) / 2 + 1.5rem);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #252525;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        width: 20px;
+        height: 35px;
+        max-width: 1600px;
+    }
+/*-----Back To Top Button STOP----*/
 
 
 }
