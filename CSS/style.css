@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Roboto;
+    font-family: "Roboto";
     src:url(CSS/font/font-family/Roboto/Roboto-Regular.ttf) format('truetype');
     
 }
@@ -28,7 +28,7 @@ header, main, footer {
 
 /*-----Header----------*/
 body {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -477,6 +477,112 @@ header li {
     padding-top: 100px;
 }
 
+.holder-message {
+    background-color: #e6e6e6;
+    padding: 1rem;
+}
+
+.holder-message h2 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.holder-message h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.holder-box {
+    display: flex;
+}
+
+.contact-venstre {
+    flex-basis: 60%;
+    margin: 40px 60px;
+    background-color: #e6e6e6;
+}
+
+.contact-høyere {
+    flex-basis: 60%;
+    padding: 40px;
+    background: #e6e6e6;
+}
+
+
+.contact-høyere li {
+    padding-bottom: 25px;
+    font-size: 20px;
+
+}
+
+
+.contact-høyere i {
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+
+.contact-høyere p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.contact-høyere a li {
+    text-decoration: underline;
+}
+
+.input-row {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row a {
+    font-size: 20px;
+}
+
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+
+.input-group input {
+    width: 100%;
+    border-style: none;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+.input-group label {
+    font-size: 25px;
+}
+
+
+.input-message {
+    margin-bottom: 40px;
+}
+
+.input-message label {
+    font-size: 25px;
+}
+
+.input-message textarea{
+    width: 100%;
+    border-style: none;
+    padding-right: 30px;
+    padding-bottom: 180px;
+    margin-top: 10px;
+}
 
 
 /*------ABOUT SLUTT-------*/
