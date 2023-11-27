@@ -569,7 +569,7 @@ header li {
 
 
 .input-message {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .input-message label {
@@ -583,6 +583,56 @@ header li {
     padding-bottom: 180px;
     margin-top: 10px;
 }
+
+.google-maps {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-banner-about {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.mobile-banner-about img  {
+    position: relative;
+    max-width: 100%;
+    height: 950px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.mobile-banner-about-text {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    width: 272px;
+    height: 790px;
+    background-color: rgba(255, 255, 255, 0.712);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.mobile-banner-about-text p {
+    width: 74%;
+}
+
+.mobile-banner-about-text h1 {
+    font-size: 23px;
+    width: 70%;
+}
+
+
+
 
 
 /*------ABOUT SLUTT-------*/
@@ -629,7 +679,7 @@ header li {
     display: block;
     text-align: center;
     margin-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     
     
 }
@@ -712,6 +762,16 @@ header li {
         display: none;
     }
 
+    .mobile-banner-about {
+        display: none;
+    }
+
+
+    .google-maps-mob {
+        display: none;
+    }
+    
+
 
 
     
@@ -724,7 +784,7 @@ header li {
     /*Syntess bare på desktop*/
 
 
-    /*-----INDEX HEADER-------*/
+    /*-----HEADER-------*/
 
     .desktop-navbar {
         display: none;
@@ -733,7 +793,7 @@ header li {
     .desktop-video-holder {
         display: none;
     }
-    /*------INDEX HEADER SLUTT*/
+    /*------HEADER SLUTT*/
 
     /*-----Back To Top Button-----*/
     .back-to-top {
@@ -909,8 +969,142 @@ header li {
 
     /*---------INDEX MAIN SLUTT--------*/
 
+    /*----ABOUT START-----*/
+    .desktop-banner-about {
+        display: none;
+    }
 
+
+    .black-btn-holder-about-mob  {
+        font-size: 20px;
+    }
+
+    .indexServices-about {
+        padding-top: 205px;
+        display: grid;
+        text-align: center;
+    } 
+    
+    .indexServices-about h2 {
+        font-size: 25px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .indexServices-about h3 {
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+    
+    .indexServices-about li{
+        display: inline-block;
+        text-align: center;
+        margin: 1rem;
+    }
+    
+    .indexServices-about li p {
+        padding-top: 0px;
+        max-width: 350px;
+        font-size: 20px;
+    }
+
+
+    .someclients {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .someclients h2 {
+        font-size: 25px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .someclients img {
+        max-width: 40%;
+        height: auto;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    .someclients img:nth-child(1),
+    .someclients img:nth-child(3) {
+    order: 0;
 }
+
+    .holder-box {
+        display: block;
+    }
+
+    .contact-venstre {
+        margin: 0;
+    }
+
+    .holder-message {
+        padding-left: 30px;
+    }
+
+    .input-group input {
+        padding-top: 15px;
+        padding-bottom: 12px;
+        padding-right: 0;
+        overflow-x: hidden;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .input-group label {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .input-message textarea {
+        padding-right: 0;
+        padding-bottom: 140px;
+        width: 96%;
+    }
+
+    .contact-høyere {
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .contact-høyere p {
+        font-size: 18px;
+    }
+
+
+
+    .google-maps {
+        display: none;
+    }
+
+    .google-maps-mob {
+        height: 250px;
+    }
+
+    .holder-message h3 {
+        font-size: 20px;
+    }
+
+    .holder-message h2 {
+        font-size: 23px;
+    }
+
+    /*----ABOUT SLUTT-------*/
+
+    /*----FOOTER------*/
+
+    .footer-innhold li {
+        margin: 0;
+        padding: 0;
+    }
+    /*-----FOOTER SLUTT------*/
+
+    }
 
 
 @media only screen and (min-width: 1600px) {
