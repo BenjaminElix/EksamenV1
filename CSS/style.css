@@ -756,6 +756,7 @@ header li {
         flex: 1 1 300px;
         margin: 30px 15px;
         font-size: 20px;
+        font-weight: 600;
     }
 
     .branding-desk ul li img {
@@ -802,6 +803,8 @@ header li {
         flex: 1 1 300px;
         margin: 0 8px;
         text-align: left;
+        font-size: 20px;
+        font-weight: 600;
     }
 
     .design-desk li img {
@@ -819,6 +822,49 @@ header li {
     .større-bilde:hover img {
         transform: scale(1.1);
     }
+
+    .development-desk {
+        padding: 0 60px;
+    }
+
+    .development-desk h2 {
+        text-align: left;
+        border-bottom: 4px solid #e6bd43;
+        padding-bottom: 20px;
+        font-size: 45px;
+    }
+
+    .development-desk  ul{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .development-desk li {
+        position: relative;
+        flex: 1 1 300px;
+        margin: 0 8px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .development-desk li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .development-desk p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    
+    
+
+    
 
     .hvit-btn {
         background-color: #ffffff;
