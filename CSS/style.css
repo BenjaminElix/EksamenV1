@@ -783,6 +783,20 @@ header li {
 
     }
 
+    .big-ikke-vis {
+        flex: 1 1 300px;
+        margin: 30px 15px;
+        font-size: 20px;
+        font-weight: 600;
+        flex-grow: 1;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .big-ikke-vis:hover {
+        transform: scale(1.1);
+        flex-grow: 1.1;
+    }
+
     .design-desk {
         padding: 0 80px;
     }
@@ -867,6 +881,7 @@ header li {
         width: 100%;
         height: auto;
     }
+
     
     
 
@@ -1048,6 +1063,12 @@ header li {
         transform: scale(1);
     }
 
+    .mail-sign a {
+        font-size: 15px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+    }
+
 
     .design-desk li:hover {
         flex-grow: 0;
@@ -1059,6 +1080,25 @@ header li {
         transform: scale(1);
     }
 
+    .big-ikke-vis:hover {
+        transform: scale(1);
+        flex-grow: 0;
+    }
+
+    .black-btn-mobile:hover {
+        background-color: #e6bd43;
+        color: black;
+    }
+
+    .black-btn:hover {
+        background-color: #e6bd43;
+        color: black;
+    }
+
+    .yellow-btn-outline:hover {
+        background-color: #e6bd43;
+        color: black;
+    }
     
 
     .products-banner-desk {
@@ -1284,9 +1324,6 @@ header li {
         padding-top: 0px;
     }
     
-    .mail-sign a {
-        font-size: 20px;
-    }
     
     .newsletter input {
         padding: 15px;
@@ -1295,7 +1332,7 @@ header li {
         font-size: 15px;
     }
 
-    #black-btn {
+    .black-btn {
         background-color: #e6bd43;
         color: rgb(0, 0, 0);
         padding: 14px 20px;
@@ -1304,11 +1341,9 @@ header li {
         font-size: 15px;
     
     }
+
     
-    #black-btn:hover {
-        background-color: black;
-        color: #e6bd43;
-    }
+    
     
 
     /*---------INDEX MAIN SLUTT--------*/

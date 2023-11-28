@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Mikrodata-kode lagt til av Google Structured Data Markup Helper. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,11 +41,11 @@
                 </section>
             </nav>
         </header>
-        <main>
+        <main itemscope itemtype="http://schema.org/LocalBusiness">
             <section class="desktop-banner-about">
                 <img src="img/apple-1841553_1280.jpg" alt="banner-about">
                 <section class="desktop-banner-about-text">
-                    <p>Company name</p>
+                    <p itemprop="name">Company name</p>
                     <h1>About our company</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     <section class="black-btn-holder-about">
@@ -139,10 +140,10 @@
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint</p>
                             </li>
 
-                            <li><i class="fa-solid fa-location-pin fa-2xl" style="color: #494949;"></i> B R A Veien, 1757 Halden</li>
-                            <li><i class="fa-solid fa-phone fa-2xl" style="color: #494949;"></i>69 60 80 00</li>
+                            <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="fa-solid fa-location-pin fa-2xl" style="color: #494949;"></i> <span itemprop="streetAddress">B R A Veien 4</span>,<span itemprop="postalCode"> 1757</span> <span itemprop="addressRegion">Halden</span></li>
+                            <li itemprop="telephone"><i class="fa-solid fa-phone fa-2xl" style="color: #494949;"></i>69 60 80 00</li>
                             <li>
-                                <a href="mailto:postmottak@hiof.no"><i class="fa-solid fa-envelope fa-2xl" style="color: #494949;"></i>postmottak@hiof.no</a>
+                                <a href="mailto:postmottak@hiof.no"><span itemprop="email"><i class="fa-solid fa-envelope fa-2xl" style="color: #494949;"></i>postmottak@hiof.no</span></a>
                             </li>
                            
                         </ul>

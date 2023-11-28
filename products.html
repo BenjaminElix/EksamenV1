@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Mikrodata-kode lagt til av Google Structured Data Markup Helper. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@
     <link href="css/font/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Portfolio</title>
-    <link rel="icon" href="img/logo1.png" type="ikon-bilde">
+    <link rel="icon" href="img/logo1.png">
 </head>
 <body>
     <div id="grid-container">
@@ -20,7 +21,7 @@
                     <li><a href="index.html" aria-label="lenke-til-Index">Home</a></li>
                     <li><a href="products.html" class="navbar-side-bold" aria-label="lenke-til-produkts">Portfolio</a></li>
                     <li><a href="about.html" aria-label="lenke-til-about">About</a></li>
-                    <li><a href="about.html #contactus-meny" id="black-btn">Contact</a></li>                    
+                    <li><a href="about.html#contactus-meny" class="black-btn">Contact</a></li>                    
                 </ul>
             </nav>
             <nav class="mobile-navbar">
@@ -34,38 +35,38 @@
                     <li><a href="about.html">About</a></li>                   
                 </ul>
                 <section class="black-btn-holder">
-                    <li><a href="about.html #contactus-meny" id="black-btn-mobile">Contact</a></li>
+                    <a href="about.html#contactus-meny" class="black-btn-mobile">Contact</a>
                 </section>
             </nav>
         </header>
         <main>
-            <section class="products-banner-desk">
+            <span itemscope itemtype="http://schema.org/Article"><section class="products-banner-desk">
                 <img src="img/apple-1841553_1280.jpg" alt="banner-products-desk">
                 <section class="products-banner-desk-text">
-                    <h1>Portfolio</h1>
+                    <h1 id="_name1" itemprop="name">Portfolio</h1>
                 </section>
             </section>
             
             <section class="explore-jobs">
-                <h2>Explore previous jobs</h2>
+                <h2 itemprop="articleSection">Explore previous jobs</h2>
                     <article>
-                        <ul>
-                            <li><a href="products.html #branding-jump" class="hvit-btn" aria-label="link-til-services">Branding</a></li>
-                            <li><a href="products.html #design-jump" class="hvit-btn" aria-label="link-til-services">Design</a></li>
-                            <li><a href="products.html #development-jump" class="hvit-btn" aria-label="link-til-services">Development</a></li>
+                        <ul itemprop="articleBody">
+                            <li><a href="products.html#branding-jump" class="hvit-btn" aria-label="link-til-services">Branding</a></li>
+                            <li><a href="products.html#design-jump" class="hvit-btn" aria-label="link-til-services">Design</a></li>
+                            <li><a href="products.html#development-jump" class="hvit-btn" aria-label="link-til-services">Development</a></li>
                         </ul>
                     </article>
-            </section>
+            </section></span>
             <section class="branding-desk">
-                <h2 id="branding-jump">Branding</h2>
+                <h2 itemprop="articleSection" id="branding-jump">Branding</h2>
                 <article>
                     <ul>
-                        <li><img src="https://placehold.co/400x400" alt="branding-placehodler" aria-label="link-til-produkt"><p>Et harum quidem</p></li>
+                        <li itemscope itemtype="http://schema.org/Article" itemref="_name1 branding-jump"><img itemprop="image" src="https://placehold.co/400x400" alt="branding-placehodler" aria-label="link-til-produkt"><p>Et harum quidem</p></li>
                         <li><img src="https://placehold.co/400x400" alt="branding-placehodler" aria-label="link-til-produkt"><p>Et harum quidem</p></li>
                         <li><img src="https://placehold.co/400x400" alt="branding-placehodler" aria-label="link-til-produkt"><p>Et harum quidem</p></li>
                     </ul>
                     <section class="big-ikke-vis">
-                        <li><img src="https://placehold.co/400x400" alt="branding-placehodler" class="større-bilde"><p>Et harum quidem</p></li>
+                        <img src="https://placehold.co/400x400" alt="branding-placehodler" class="større-bilde"><p>Et harum quidem</p>
                     </section>
                 </article>
             </section>
