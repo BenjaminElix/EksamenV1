@@ -9,7 +9,7 @@
     <link href="css/font/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Forside</title>
-    <link rel="icon" href="img/logo1.png" type="ikon-bilde">
+    <link rel="icon" href="img/logo1.png">
 </head>
 <body>
     <div id="grid-container">
@@ -20,7 +20,7 @@
                     <li><a href="index.html" aria-label="Lenke-til-Index">Home</a></li>
                     <li><a href="products.html" aria-label="lenke-til-produkts">Portfolio</a></li>
                     <li><a href="about.html" class="navbar-side-bold" aria-label="lenke-til-about">About</a></li>
-                    <li><a href="about.html #contactus-meny" id="black-btn">Contact</a></li>                    
+                    <li><a href="about.html#contactus-meny" class="black-btn">Contact</a></li>                    
                 </ul>
             </nav>
             <nav class="mobile-navbar">
@@ -34,9 +34,11 @@
                     <li><a href="about.html" class="navbar-side-bold">About</a></li>                   
                 </ul>
                 <section class="black-btn-holder">
-                    <li><a href="about.html #contactus-meny" id="black-btn-mobile">Contact</a></li>
+                    <ul>
+                        <li><a href="about.html#contactus-meny" class="black-btn-mobile">Contact</a></li>
+                    </ul>
                 </section>
-            
+            </nav>
         </header>
         <main>
             <section class="desktop-banner-about">
@@ -46,7 +48,7 @@
                     <h1>About our company</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     <section class="black-btn-holder-about">
-                        <a href="about.html #contactus-meny" id="black-btn" aria-label="link-til-services">Get in touch with us</a>
+                            <a href="about.html#contactus-meny" class="black-btn" aria-label="link-til-services">Get in touch with us</a>
                     </section>
                 </section>
             </section>
@@ -57,7 +59,7 @@
                     <h1>About our company</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     <section class="black-btn-holder-about-mob">
-                        <a href="about.html #contactus-meny" id="black-btn" aria-label="link-til-services">Get in touch with us</a>
+                        <a href="about.html#contactus-meny" class="black-btn" aria-label="link-til-services">Get in touch with us</a>
                     </section>
                 </section>
             </section>
@@ -97,9 +99,11 @@
             <section class="someclients">
                 <h2>Some of our clients</h2>
                 <ul>
-                    <img src="img/logo1.png" alt="logo1">
-                    <img src="img/logo2.png" alt="logo2">
-                    <img src="img/logo3.png" alt="logo3">
+                    <li>
+                        <img src="img/logo1.png" alt="logo1">
+                        <img src="img/logo2.png" alt="logo2">
+                        <img src="img/logo3.png" alt="logo3">
+                    </li>
                 </ul>
             </section>
 
@@ -122,24 +126,25 @@
                                     <label>Message</label>
                                 </section>
                                 <section class="input-message">
-                                    <textarea type="text" aria-label="skrive-boks"></textarea>
+                                    <textarea aria-label="skrive-boks"></textarea>
                                 </section>
-                                <a href="#" id="black-btn" aria-label="Sign-me-up">Send message</a>
+                                <a href="#" class="black-btn" aria-label="Sign-me-up">Send message</a>
                             </section>
                         </form>
                     </section>
                     <section class="contact-høyere">
                         <ul>
-                                <h3> Contact information</h3>
                             <li>
+                                <h3> Contact information</h3>
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint</p>
                             </li>
 
                             <li><i class="fa-solid fa-location-pin fa-2xl" style="color: #494949;"></i> B R A Veien, 1757 Halden</li>
                             <li><i class="fa-solid fa-phone fa-2xl" style="color: #494949;"></i>69 60 80 00</li>
-                            <a href="mailto:postmottak@hiof.no">
-                                <li><i class="fa-solid fa-envelope fa-2xl" style="color: #494949;"></i>postmottak@hiof.no</li>
-                            </a>
+                            <li>
+                                <a href="mailto:postmottak@hiof.no"><i class="fa-solid fa-envelope fa-2xl" style="color: #494949;"></i>postmottak@hiof.no</a>
+                            </li>
+                           
                         </ul>
                     </section>
                 </section>
@@ -160,19 +165,17 @@
         </main>
         <footer>
             <nav class="footer-innhold">
-                <ul>
-                    <section class="logo-holder">
-                        <img src="img/logo1.png" alt="logo-footer">
-                    </section>
-                    <p>Companyrights Companyname 2023</p>
-                    <section class="social-icon">
-                        <ul>
-                            <li><a href="https://www.facebook.com/" aria-label="lenke-til-facebook"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a></li>
-                            <li><a href="https://www.instagram.com/" aria-label="lenke-til-instagram"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
-                            <li><a href="https://no.linkedin.com/" aria-label="lenke-til-linkedin"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a></li>
-                        </ul>
-                    </section>    
-                </ul>
+                <section class="logo-holder">
+                    <img src="img/logo1.png" alt="logo-footer">
+                </section>
+                <p>Companyrights Companyname 2023</p>
+                <section class="social-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" aria-label="lenke-til-facebook"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a></li>
+                        <li><a href="https://www.instagram.com/" aria-label="lenke-til-instagram"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+                        <li><a href="https://no.linkedin.com/" aria-label="lenke-til-linkedin"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </section>    
             </nav>
             <nav class="footer-innhold-desktop-nav">
                 <section class="footer-innhold-desktop">

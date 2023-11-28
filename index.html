@@ -9,7 +9,7 @@
     <link href="css/font/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Forside</title>
-    <link rel="icon" href="img/logo1.png" type="ikon-bilde">
+    <link rel="icon" href="img/logo1.png">
 </head>
 <body>
     <div id="grid-container">
@@ -20,7 +20,7 @@
                     <li><a href="index.html" class="navbar-side-bold" aria-label="lenke-til-Index">Home</a></li>
                     <li><a href="products.html" aria-label="lenke-til-produkts">Portfolio</a></li>
                     <li><a href="about.html" aria-label="lenke-til-about">About</a></li>
-                    <li><a href="about.html #contactus-meny" id="black-btn">Contact</a></li>                    
+                    <li><a href="about.html#contactus-meny" class="black-btn">Contact</a></li>                    
                 </ul>
             </nav>
             <nav class="mobile-navbar">
@@ -34,7 +34,9 @@
                     <li><a href="about.html" aria-label="lenke-til-about">About</a></li>                   
                 </ul>
                 <section class="black-btn-holder">
-                    <li><a href="about.html #contactus-meny" id="black-btn-mobile">Contact</a></li>
+                    <ul>
+                        <li><a href="about.html#contactus-meny" class="black-btn-mobile">Contact</a></li>
+                    </ul>
                 </section>
             </nav>
         </header>
@@ -46,7 +48,7 @@
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
                         excepturi sint occaecati cupiditate non provident</p>
                         <section class="black-btn-holder">
-                            <a href="#Index-jump-services" id="black-btn" aria-label="link-til-services">Read more about our services</a>
+                            <a href="#Index-jump-services" class="black-btn" aria-label="link-til-services">Read more about our services</a>
                         </section>
                 </section>
 
@@ -60,16 +62,14 @@
                             <h1>Compeling headline</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut. <br> Labore et dolore  aliqua. Sit amet risus nullam eget felis. <br>Facilisi morbi tempus iaculis urna id volutpat laoreet.</p>
                             <section class="black-btn-holder">
-                                <a href="#Index-jump-services" id="black-btn" aria-label="link-til-services">Read more about our services</a>
+                                <a href="#Index-jump-services" class="black-btn" aria-label="link-til-services">Read more about our services</a>
                             </section>
                         </section>
                 </section>
             </section>
             <section class="subheading">
-                <ul>
-                    <h2>Enganging subheading. What can you help your visitors with</h2>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                </ul>
+                <h2>Enganging subheading. What can you help your visitors with</h2>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </section>
             <section class="ourCompany">
                 <img src="https://placehold.co/400x400" alt="our-company">
@@ -83,7 +83,7 @@
                         </li>
                         <li>
                             <section class="ourCompany-button">
-                                <a href="about.html" id="yellow-btn-outline" aria-label="Read-more-about-us">Read more about us</a>
+                                <a href="about.html" class="yellow-btn-outline" aria-label="Read-more-about-us">Read more about us</a>
                             </section>  
                         </li>
                     </ul>
@@ -127,7 +127,7 @@
                 <section class="mail-sign">
                     <label for="mail-bruker">Nora@epost.no:</label>
                     <input type="text" id="mail-bruker" name="mail-bruker" placeholder="Nora@epost.no" aria-label="Email-skriveboks">
-                    <a href="#" id="black-btn" aria-label="Sign-me-up">Sign me up!</a>
+                    <a href="#" class="black-btn" aria-label="Sign-me-up">Sign me up!</a>
                 </section>
             </section>
             <a href="#" class="back-to-top">
@@ -136,7 +136,6 @@
         </main>
         <footer>
             <nav class="footer-innhold">
-                <ul>
                     <section class="logo-holder">
                         <img src="img/logo1.png" alt="logo-footer">
                     </section>
@@ -148,7 +147,6 @@
                             <li><a href="https://no.linkedin.com/" aria-label="lenke-til-linkedin"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a></li>
                         </ul>
                     </section>    
-                </ul>
             </nav>
             <nav class="footer-innhold-desktop-nav">
                 <section class="footer-innhold-desktop">
