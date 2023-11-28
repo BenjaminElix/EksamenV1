@@ -474,7 +474,7 @@ header li {
 .someclients h2 {
     font-size: 50px;
     font-weight: 800;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .holder-message {
@@ -631,11 +631,213 @@ header li {
     width: 70%;
 }
 
+.indexServices-about {
+    padding-top: 50px;
+    display: grid;
+    text-align: center;
+} 
+
+.indexServices-about h2 {
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.indexServices-about h3 {
+    margin-top: 30px;
+    padding-bottom: 0px;
+    font-size: 28px;
+}
+
+.indexServices-about li{
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    font-size: 22px;
+}
+
+.indexServices-about li p {
+    padding-top: 0px;
+    max-width: 350px;
+    font-size: 23px;
+}
+
 
 
 
 
 /*------ABOUT SLUTT-------*/
+
+.products-banner-desk {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+}
+
+.products-banner-desk img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+
+.products-banner-desk-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    font-size: 30px;
+    text-align: center;
+}
+
+/*-------PRODUCTS---------*/
+
+
+    .explore-jobs {
+        padding: 0 60px;
+    }
+
+    .explore-jobs h2 {
+        text-align: left;
+        border-bottom: 4px solid #e6bd43;
+        padding-bottom: 20px;
+        font-size: 45px;
+        
+    }
+
+    .explore-jobs  ul {
+        padding: 0;
+        display: flex;
+        margin-left: 3px;
+    }
+
+    .explore-jobs li {
+        margin-right: 20px;
+        
+    }
+
+
+    .branding-desk h2 {
+        text-align: left;
+        border-bottom: 4px solid #e6bd43;
+        padding-bottom: 20px;
+        font-size: 45px;
+    }
+
+
+    .branding-desk {
+        padding: 0 60px;
+    }
+
+
+
+    .branding-desk ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .branding-desk li {
+        flex: 1 1 300px;
+        margin: 30px 15px;
+        font-size: 20px;
+    }
+
+    .branding-desk ul li img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .branding-desk li:hover img {
+        transform: scale(1.1);
+    }
+    
+    .større-bilde {
+        flex: 1 0 100%;
+        margin-top: 20px;
+    }
+
+    .større-bilde img {
+        width: 700px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+
+    }
+
+    .design-desk {
+        padding: 0 60px;
+    }
+
+    .design-desk h2 {
+        text-align: left;
+        border-bottom: 4px solid #e6bd43;
+        padding-bottom: 20px;
+        font-size: 45px;
+    }
+
+    .design-desk  ul{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .design-desk li {
+        position: relative;
+        flex: 1 1 300px;
+        margin: 0 8px;
+        text-align: left;
+    }
+
+    .design-desk li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .design-desk p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .større-bilde:hover img {
+        transform: scale(1.1);
+    }
+
+    .hvit-btn {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 10px 10px;
+        font-weight: 500;
+        text-decoration: none;
+        outline-style: solid;
+        outline-width: 1px;
+        font-size: 20px;
+
+    }
+    
+    .hvit-btn:hover {
+        background-color: black;
+        color: #e6bd43;
+    }
+
+/*-------PRODUCTS SLUTT--------*/
 
 
 /*-----Back To Top Button-----*/
@@ -918,6 +1120,8 @@ header li {
         font-size: 20px;
     }
 
+    
+
 
     .newsletter {
         text-align: center;
@@ -1093,6 +1297,9 @@ header li {
     .holder-message h2 {
         font-size: 23px;
     }
+
+
+    
 
     /*----ABOUT SLUTT-------*/
 
