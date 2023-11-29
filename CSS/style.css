@@ -2,7 +2,9 @@
     font-family: "Roboto";
     src:url(CSS/font/font-family/Roboto/Roboto-Regular.ttf) format('truetype');
     
+    
 }
+
 
 /*Viste hvordan jeg la inn font https://www.youtube.com/watch?v=AAU25Fo4bFY&t=200s*/    
 
@@ -1078,7 +1080,7 @@ header li {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     /*Syntess bare på desktop*/
     
     /*-------PRODUKT----------*/
@@ -1435,7 +1437,7 @@ header li {
         padding-right: 10px;
         padding-bottom: 40px;
     }
-
+    /*Denne koden fikk jeg fra ChatGPT*/
     .someclients img:nth-child(1),
     .someclients img:nth-child(3) {
     order: 0;
@@ -1542,4 +1544,6 @@ header li {
         width: 100%;
         height: auto;
     }
+
+
 }
