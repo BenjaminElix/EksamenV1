@@ -238,9 +238,10 @@ header li {
     background-color: #e6bd43;
     outline-style: solid;
     color: rgb(0, 0, 0);
-    padding: 20px 20px;
+    padding: 15px;
     font-weight: 800;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .yellow-btn-outline:hover {
@@ -328,8 +329,7 @@ header li {
     margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 50%;
-    height: 50%;
+    width: 80%;
     float: left;
 }
 
@@ -427,6 +427,10 @@ header li {
 
 .desktop-banner-about{
     width: 100%;
+}
+
+.mail-strek {
+    text-decoration: underline;
 }
 
 .desktop-banner-about img {
@@ -1234,10 +1238,6 @@ header li {
     }
 
 
-    .ourCompany {
-        display: ;
-    }
-
     .footer-innhold-desktop {
         display: none;
     }
@@ -1265,42 +1265,55 @@ header li {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        
-
+        justify-content: center;
     }
 
     .ourCompany img{
         margin-bottom: 40px;
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        max-width: 550px;
         margin-left: 0;
     }
 
     .ourCompany li {
         text-align: center;
-        margin-left: auto;
+        margin: 0;
+    }
+
+    .ourCompany-text {
+        width: 90%;
+        max-width: 540px;
     }
 
     .ourCompany h3 {
         font-size: 25px;
         width: 70%;
-        margin: auto;
         text-align: left;
     }
 
     .ourCompany-text ul {
         text-align: center;
+        margin: 0;
     }
 
     .ourCompany p {
         text-align: left;
-        margin: auto;
+        margin: 0;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .ourCompany-button {
+        margin: 0;
+        padding: 40px 0px;
+        float: left;
     }
 
     .indexServices {
         text-align: center;
         font-size: 20px;
         padding-bottom: 20px;
+        margin: 0;
     }
     
     
@@ -1450,15 +1463,25 @@ header li {
 }
 
     .holder-box {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact-venstre {
         margin: 0;
+        width: 100%;
     }
 
     .holder-message {
         padding-left: 30px;
+    }
+
+    .input-row section{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
     }
 
     .input-group input {
