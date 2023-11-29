@@ -26,6 +26,7 @@ header, main, footer {
 }
 
 
+
 /*-----Header----------*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,7 +38,19 @@ header {
     font-weight: 400;
     grid-area: header;
     margin-bottom: 40px;
+    grid-area: header;
+    display: grid;
 
+}
+
+main {
+    grid-area: main;
+    display: grid;
+}
+
+footer {
+    grid-area: footer;
+    display: grid;
 }
 
 .desktop-navbar img {
@@ -1020,7 +1033,15 @@ header li {
 
 
 @media only screen and (min-width: 600px) {
-/*Syntess bare på mobil*/
+
+
+    /*Syntess bare på mobil*/
+
+    #grid-container {
+        display: grid;
+        grid-template-areas: "header header header" "main main main" "footer footer footer";
+
+        }
 
 
     .mobile-navbar {
@@ -1050,11 +1071,11 @@ header li {
     
 
 
-
+}
     
 
 
-}
+
 
 
 @media only screen and (max-width: 600px) {
