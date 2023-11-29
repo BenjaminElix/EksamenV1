@@ -425,6 +425,10 @@ header li {
 
 /*------ABOUT---------*/
 
+.desktop-banner-about{
+    width: 100%;
+}
+
 .desktop-banner-about img {
     position: relative;
     width: 100%;
@@ -439,7 +443,7 @@ header li {
 .desktop-banner-about-text {
     position: absolute;
     top: 245px;
-    left: 50%;
+    left: 40%;
     width: 700px;
     height: 470px;
     background-color: rgba(255, 255, 255, 0.712);
@@ -1037,7 +1041,7 @@ header li {
 @media only screen and (min-width: 900px) {
 
 
-    /*Syntess bare på mobil*/
+    /*Syntess bare på desktop*/
 
     #grid-container {
         display: grid;
@@ -1081,7 +1085,7 @@ header li {
 
 
 @media only screen and (max-width: 900px) {
-    /*Syntess bare på desktop*/
+    /*Syntess bare på mobile*/
     
     /*-------PRODUKT----------*/
 
@@ -1381,6 +1385,8 @@ header li {
     }
     
 
+    
+
 
     .black-btn-holder-about-mob  {
         font-size: 20px;
@@ -1492,6 +1498,7 @@ header li {
 
     .google-maps-mob {
         height: 250px;
+        width: 100%;
     }
 
     .holder-message h3 {
@@ -1539,11 +1546,22 @@ header li {
 
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
     .større-bilde {
         width: 100%;
         height: auto;
     }
 
+    .desktop-banner-about-text p {
+        font-size: 19px;
+    }
+
+    .desktop-banner-about-text {
+        width: 450px;
+        right: 40px;
+        left: auto;
+    }
+
 
 }
+
