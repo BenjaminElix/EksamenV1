@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Mikrodata-kode lagt til av Google Structured Data Markup Helper. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,10 +42,10 @@
             </nav>
         </header>
         <main>
-            <section class="mobile-banner-holder">
+            <section itemscope itemtype="http://schema.org/Article" class="mobile-banner-holder">
                 <img src="img/apple-1841553_1280.jpg" alt="mobil-og-notatblokk">
                 <section class="overlay-text-mobil">
-                    <h1>Compeling <br>headline</h1>
+                    <h2 id="_name1" itemprop="name">Compeling <br>headline</h2>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
                         excepturi sint occaecati cupiditate non provident</p>
                         <section class="black-btn-holder">
@@ -67,9 +68,9 @@
                         </section>
                 </section>
             </section>
-            <section class="subheading">
-                <h2>Enganging subheading. What can you help your visitors with</h2>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <section itemscope itemtype="http://schema.org/Article" class="subheading">
+                <h2 itemprop="headline">Enganging subheading. What can you help your visitors with</h2>
+                <p itemprop="articleBody">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </section>
             <section class="ourCompany">
                 <img src="https://placehold.co/400x400" alt="our-company">
@@ -89,35 +90,35 @@
                     </ul>
                 </section>
             </section>
-            <section class="indexServices">
+            <section itemscope itemtype="http://schema.org/Article" itemref="_name1" class="indexServices">
                 <h2 id="Index-jump-services">Our Services</h2>
                 <ul>
                     <li>
                         <article>
                             <i class="fa-solid fa-users fa-2xl" style="color: #000000;"></i>
-                            <h3>Branding</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <h3 itemprop="headline">Branding</h3>
+                            <p itemprop="articleBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </article>
                     </li>
                     <li>
                         <article>
                             <i class="fa-solid fa-cloud-arrow-up fa-2xl" style="color: #000000;"></i>
-                            <h3>Branding</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <h3 itemprop="headline">Branding</h3>
+                            <p itemprop="articleBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </article>
                     </li>
                     <li>
                         <article>
                             <i class="fa-solid fa-code fa-2xl" style="color: #000000;"></i>
-                            <h3>Branding</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <h3 itemprop="headline">Branding</h3>
+                            <p itemprop="articleBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </article>
                     </li>
                     <li>
                         <article>
                             <i class="fa-solid fa-wifi fa-2xl" style="color: #000000;"></i>
-                            <h3>Branding</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <h3 itemprop="headline">Branding</h3>
+                            <p itemprop="articleBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </article>
                     </li>
                 </ul>

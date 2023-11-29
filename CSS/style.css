@@ -213,6 +213,10 @@ header li {
         width: 65%;
     }
 
+    .overlay-text-mobil h2 {
+        font-size: 40px;
+    }
+
 /*------Mobile INDEX SLUTT------*/
 
 .yellow-btn-outline {
@@ -749,14 +753,14 @@ header li {
 
 
 
-    .branding-desk ul {
+    .branding-desk li {
         padding: 0;
         margin: 0;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .branding-desk li {
+    .branding-desk article {
         flex: 1 1 300px;
         margin: 30px 15px;
         font-size: 20px;
@@ -766,12 +770,12 @@ header li {
         
     }
 
-    .branding-desk ul li img {
+    .branding-desk article img {
         width: 100%;
         height: auto;      
     }
 
-    .branding-desk li:hover {
+    .branding-desk article:hover {
         transform: scale(1.1);
         flex-grow: 1.1;
     }
@@ -808,13 +812,13 @@ header li {
         font-size: 45px;
     }
 
-    .design-desk  ul{
+    .design-desk  li{
         display: flex;
         flex-wrap: wrap;
 
     }
 
-    .design-desk li {
+    .design-desk article {
         position: relative;
         flex: 1 1 300px;
         margin: 0 15px;
@@ -826,12 +830,12 @@ header li {
         
     }
 
-    .design-desk li:hover {
+    .design-desk article:hover {
         flex-grow: 1.5;
         transform: scale(1.1);
     }
 
-    .design-desk li img {
+    .design-desk article img {
         width: 100%;
         height: auto;
     }
@@ -853,16 +857,16 @@ header li {
         font-size: 45px;
     }
 
-    .development-desk  ul{
+    .development-desk  li{
         display: flex;
         flex-wrap: wrap;
 
     }
 
-    .development-desk li {
+    .development-desk article {
         position: relative;
         flex: 1 1 300px;
-        margin: 20px 15px;
+        margin: 20px 25px;
         text-align: left;
         font-size: 20px;
         font-weight: 600;
@@ -871,7 +875,7 @@ header li {
         
     }
 
-    .development-desk li:hover {
+    .development-desk article:hover {
         flex-grow: 1.2;
         transform: scale(1.1);
     }
@@ -1058,7 +1062,7 @@ header li {
     
     /*-------PRODUKT----------*/
 
-    .branding-desk li:hover {
+    .branding-desk article:hover {
         flex-grow: 0;
         transform: scale(1);
     }
@@ -1070,12 +1074,12 @@ header li {
     }
 
 
-    .design-desk li:hover {
+    .design-desk article:hover {
         flex-grow: 0;
         transform: scale(1);
     }
 
-    .development-desk li:hover {
+    .development-desk article:hover {
         flex-grow: 0;
         transform: scale(1);
     }
